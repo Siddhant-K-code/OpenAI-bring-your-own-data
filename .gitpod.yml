@@ -1,0 +1,6 @@
+tasks:
+  - init: pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt --default-timeout=5000
+    command: python server.py
+
+github:
+  prebuilds: true

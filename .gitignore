@@ -1,0 +1,4 @@
+db/*
+*.env
+checkpoint
+*.log
