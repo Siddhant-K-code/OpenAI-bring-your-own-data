@@ -15,6 +15,8 @@
 3. Run the following command:
 
    ```bash
+   pyenv virtualenv 3.9.9 fun_openai_work
+   pyenv activate fun_openai_work
    python server.py
    ```
 
@@ -25,5 +27,9 @@
     ```
     http://127.0.0.1:5000/chat?question="something about siddhant"
     ```
+    
+    Output:
+      <img width="1000" alt="image" src="https://user-images.githubusercontent.com/55068936/230473879-c3ffc84c-fb2d-44fc-8a32-a5b063ce47a3.png">
+
 
 > **Note**: if you want to rebuild your db, just delete the "checkpoint" file. It will rebuild the db from scratch. And, then you can run the server again.
